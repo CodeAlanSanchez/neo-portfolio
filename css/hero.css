@@ -1,0 +1,143 @@
+.hero-banner {
+  position: relative;
+  background-color: #6fb3ff;
+  background-size: 70rem;
+  color: white;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.hero-banner img {
+  aspect-ratio: auto;
+  height: 5rem;
+  object-fit: cover;
+  filter: drop-shadow(13px 8px 0 rgba(34, 34, 34, 0.1882352941));
+  margin-top: 2rem;
+}
+.hero-banner-cloud-2 {
+  height: 6rem;
+  margin-top: 3rem;
+  filter: drop-shadow(13px 8px 0 rgba(34, 34, 34, 0.1882352941));
+}
+.hero-banner #sun {
+  position: relative;
+  height: 6rem;
+  width: 6rem;
+  background-color: yellow;
+  border-radius: 50%;
+  border: solid #ffd500 7px;
+  box-shadow: 0.3rem 0.5rem 0 rgba(34, 34, 34, 0.1882352941);
+  bottom: 50px;
+}
+.hero-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: min(100%, 1200px);
+  margin: 6rem auto;
+}
+.hero-left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+.hero-right {
+  position: relative;
+  margin-top: 7rem;
+}
+.hero-welcome {
+  display: block;
+  font-size: 7.5rem;
+  color: transparent;
+  background: linear-gradient(to top, cornflowerblue, #3ac1fa);
+  background-clip: text;
+  filter: drop-shadow(5px 5px 0 rgba(34, 34, 34, 0.1882352941));
+}
+.hero-text {
+  font-size: 5rem;
+  position: relative;
+  top: -4rem;
+  color: #090a26;
+}
+.hero-lake {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 250px;
+  filter: drop-shadow(8px 8px 0 rgba(34, 34, 34, 0.1882352941));
+}
+.hero-tree {
+  position: absolute;
+  height: 200px;
+  top: -100px;
+  filter: drop-shadow(8px 8px 0 rgba(34, 34, 34, 0.1882352941));
+}
+.hero-duck {
+  position: absolute;
+  height: 50px;
+  top: 100px;
+  right: 120px;
+  filter: drop-shadow(8px 8px 0 rgba(34, 34, 34, 0.1882352941));
+}
+.hero-cta {
+  background: linear-gradient(to right, #ff8a00, #da1b60, #9251bd);
+  border-radius: 6px;
+  border: 0;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1882352941);
+  width: fit-content;
+  text-decoration: none;
+}
+.hero-cta:hover {
+  cursor: pointer;
+  filter: saturate(1.5);
+}
+.hero-cta:active {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 728px) {
+  .hero-cloud-1 {
+    display: none;
+  }
+  .hero-cloud-2 {
+    z-index: 9;
+    margin-top: 1rem;
+  }
+  .hero-banner #sun {
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    right: 115px;
+  }
+  .hero-welcome {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  .hero-text {
+    font-size: 3rem;
+    top: -40px;
+  }
+  .hero-content {
+    margin-top: 0;
+  }
+  .hero-left {
+    margin: 0 auto;
+  }
+  .hero-lake {
+    height: 120px;
+  }
+  .hero-duck {
+    height: 30px;
+    top: 60px;
+    right: 60px;
+  }
+  .hero-tree {
+    height: 100px;
+    top: -50px;
+  }
+}
+
+/*# sourceMappingURL=hero.css.map */

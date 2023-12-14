@@ -1,0 +1,82 @@
+.skill {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: .5rem;
+    background-color: #f6f6f6;
+    width: fit-content;
+    color: black;
+    outline: dashed 3px #4d566e;
+    outline-offset: -7px;
+    padding: 1rem;
+    max-width: 12rem;
+    box-shadow: 5px 5px 0 #22222230;
+    transition: all linear 150ms;
+    height: min-content;
+
+    &-list {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        gap: .5rem;
+        width: min(95%, 40rem);
+        margin: 0 auto;
+    }
+
+    &-img {
+        height: 4.5rem;
+    }
+
+    &-text {
+        font-size: 1rem;
+
+        &:hover {
+            cursor: default;
+        }
+    }
+
+    &:before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom right, #ff8a00, #da1b60, #e824ff);
+        filter: blur(2px);
+        transform: scale(.5);
+        border-radius: inherit;
+    }
+
+    &:hover:before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom right, #ff8a00, #da1b60, #e824ff);
+        filter: blur(2px);
+        transform: scale(1);
+        border-radius: inherit;
+    }
+
+    &::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+}
+
+#skills {
+    margin-bottom: 4rem;
+}

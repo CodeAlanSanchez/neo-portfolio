@@ -1,0 +1,46 @@
+.client {
+  display: flex;
+  flex-flow: row wrap;
+  width: min(95%, 60rem);
+  margin: 0 auto 4rem;
+  gap: 2rem;
+}
+.client:nth-child(3) {
+  flex-flow: row-reverse wrap;
+}
+.client-content {
+  flex: 1;
+}
+.client-title {
+  color: #313131;
+  font-size: 1.5rem;
+  margin: 0;
+  width: fit-content;
+}
+.client-time {
+  font-size: 1rem;
+  color: #464b54;
+  font-weight: 500;
+}
+.client-point {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #464b54;
+}
+.client-img-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  outline: dashed 3px #4d566e;
+  outline-offset: -10px;
+  box-shadow: 5px 5px 0 rgba(34, 34, 34, 0.1882352941);
+  background-color: #f6f6f6;
+  height: fit-content;
+}
+.client-img {
+  flex: 1;
+  width: 100%;
+  max-width: 12rem;
+}
+
+/*# sourceMappingURL=clients.css.map */

@@ -7,10 +7,182 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/clients.css">
+    <link rel="stylesheet" href="css/skills.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/cubano" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <title>Portfolio - Alan Sanchez</title>
 </head>
 <body>
-
+<section class="hero-banner">
+    <img class="hero-cloud hero-cloud-1" src="img/cloud1.png" alt="">
+    <img class="hero-cloud hero-cloud-2" src="img/cloud2.png" alt="">
+    <div class="hero-sun" id="sun"></div>
+</section>
+<div class="zipper"></div>
+<section id="hero" class="hero-content">
+    <div class="hero-left">
+        <span class="hero-welcome font-bold">Welcome</span>
+        <span class="hero-text font-cursive">to my portfolio</span>
+        <a class="hero-cta" href="#experience">See Experience</a>
+    </div>
+    <div class="hero-right">
+        <img class="hero-lake" src="img/lake.png" alt="">
+        <img class="hero-tree" src="img/tree.png" alt="">
+        <img class="hero-duck" src="img/duck.png" alt="">
+    </div>
+</section>
+<section id="skills">
+    <h2 class="header font-bold">Skills</h2>
+    <div class="skill-list">
+        <div class="skill">
+            <img class="skill-img" src="img/skills/laravel.svg" alt="laravel">
+            <span class="skill-text">Laravel</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/react.svg" alt="laravel">
+            <span class="skill-text">React</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/mysql.svg" alt="laravel">
+            <span class="skill-text">SQL</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/javascript.svg" alt="laravel">
+            <span class="skill-text">JavaScript</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/typescript.svg" alt="laravel">
+            <span class="skill-text">TypeScript</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/php.svg" alt="laravel">
+            <span class="skill-text">PHP</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/linux.svg" alt="laravel">
+            <span class="skill-text">Linux</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/git.svg" alt="laravel">
+            <span class="skill-text">Git</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/wordpress.svg" alt="laravel">
+            <span class="skill-text">Wordpress</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/sass.svg" alt="laravel">
+            <span class="skill-text">Sass</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/java.svg" alt="laravel">
+            <span class="skill-text">Java</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/python.svg" alt="laravel">
+            <span class="skill-text">Python</span>
+        </div>
+        <div class="skill">
+            <img class="skill-img" src="img/skills/apple.svg" alt="laravel">
+            <span class="skill-text">React Native</span>
+        </div>
+    </div>
+</section>
+<section id="experience">
+    <h2 class="header font-bold">Experience</h2>
+    <div class="experience">
+        <h4 class="experience-title font-bold">Software Developer Contractor</h4>
+        <span class="experience-time">December 2022 - Now</span>
+        <ul class="experience-points">
+            <li class="experience-point">
+                Conducted client consultations to understand and address their specific needs and objectives effectively.
+            </li>
+            <li class="experience-point">
+                Developed customized websites and applications, ensuring practical and tailored solutions that surpassed client expectations.
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="clients">
+    <h2 class="header font-bold">Clients</h2>
+    <div class="client">
+        <div class="client-img-container">
+            <a href="https://easyrepair.us" target="_blank">
+                <img class="client-img" src="img/easyrepair.png" alt="EasyRepair.us Home Page">
+            </a>
+        </div>
+        <div class="client-content">
+            <h4 class="client-title font-bold">EasyRepair</h4>
+            <span class="client-time">August 2023 - Now</span>
+            <ul class="client-points">
+                <li class="client-point">
+                    Implemented email/phone verification APIs for customer accounts, minimizing spam and ensuring close to 100% validity of information.
+                </li>
+                <li class="client-point">
+                    Overhauled the existing statistics dashboard, introducing data filters and enabling data comparison across different time periods.
+                </li>
+                <li class="client-point">
+                    Wrote JavaScript and PHP functions to handle implementing Car API on forms and pages, with dropdowns to select make, model, and year.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="client">
+        <div class="client-img-container">
+            <a href="http://createmindset.com" target="_blank">
+                <img class="client-img" src="img/cmp.png" alt="Leaderboards WordPress Plugin">
+            </a>
+        </div>
+        <div class="client-content">
+            <h4 class="client-title font-bold">Creative Mindset Productions</h4>
+            <span class="client-time">August 2023 - Now</span>
+            <ul class="client-points">
+                <li class="client-point">
+                    Independently developed a WordPress leaderboards plugin and corresponding mobile app.
+                </li>
+                <li class="client-point">
+                    Developed a robust database structure for handling permissions, roles, and nested sets of groups and organizations.
+                </li>
+                <li class="client-point">
+                    Structured Laravel app to be maintainable using a SOLID and DRY approach while adhering to best practices.
+                </li>
+                <li class="client-point">
+                    Managed the entire software lifecycle, from conceptual design and architecture to making informed library/technology choices and deployment.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="client">
+        <div class="client-img-container">
+            <a href="https://babynamy.com" target="_blank">
+                <img class="client-img" src="img/babynamy.png" alt="BabyNamy.com Home Page">
+            </a>
+        </div>
+        <div class="client-content">
+            <h4 class="client-title font-bold">BabyNamy</h4>
+            <span class="client-time">December 2022 - November 2023</span>
+            <ul class="client-points">
+                <li class="client-point">
+                    Transformed a generic crowdfunding application into a specialized platform for expecting parents to crowdsource baby names.
+                </li>
+                <li class="client-point">
+                    Seamlessly integrated Stripe APIs, including identity and bank verification, to facilitate secure and efficient donation transactions.
+                </li>
+                <li class="client-point">
+                    Implemented a state machine to manage authorization and permissions, ensuring smooth handling of campaign states such as open, closed, expired, pending, and
+                    more.
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 </body>
 </html>
