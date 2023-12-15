@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 600;
+  padding-bottom: 6rem;
 }
 
 html {
@@ -49,6 +50,13 @@ html {
   height: 0.5rem;
   background: linear-gradient(to right, #939393, #fff);
   margin-top: 0.125rem;
+}
+
+.email {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #313131;
+  text-align: center;
 }
 
 .skill {

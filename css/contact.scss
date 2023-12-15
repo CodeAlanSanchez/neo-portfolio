@@ -1,0 +1,14 @@
+.contact {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 1rem;
+
+    &-link {
+
+    }
+
+    &-icon {
+        width: 3rem;
+    }
+}

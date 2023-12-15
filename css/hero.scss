@@ -95,7 +95,7 @@
 
     &-cta {
         background: linear-gradient(to right, #ff8a00, #da1b60, #9251bd);
-        border-radius: 6px;
+        border-radius: 3px;
         border: 0;
         padding: 1rem 2rem;
         color: white;
@@ -111,6 +111,22 @@
 
         &:active {
             transform: scale(1.1);
+        }
+    }
+
+    &-resume {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        border: 0;
+        background: none;
+        color: #090a26;
+        width: fit-content;
+        margin-top: 1rem;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(900%);
         }
     }
 

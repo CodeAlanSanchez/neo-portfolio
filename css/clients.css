@@ -10,6 +10,7 @@
 }
 .client-content {
   flex: 1;
+  min-width: 10rem;
 }
 .client-title {
   color: #313131;
