@@ -51,7 +51,11 @@
 
     &-right {
         position: relative;
-        margin-top: 7rem;
+        margin: 0 auto;
+
+        canvas {
+            min-height: 12rem;
+        }
     }
 
     &-welcome {

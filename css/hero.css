@@ -44,7 +44,10 @@
 }
 .hero-right {
   position: relative;
-  margin-top: 7rem;
+  margin: 0 auto;
+}
+.hero-right canvas {
+  min-height: 12rem;
 }
 .hero-welcome {
   display: block;
