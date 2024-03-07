@@ -132,4 +132,27 @@ html {
   margin-bottom: 6rem;
 }
 
+h4.header-link {
+  transition: 70ms linear all;
+  border-bottom: 4px solid #313131;
+  margin-bottom: 0.25rem;
+}
+h4.header-link:hover {
+  color: #008cff;
+  border-color: #008cff;
+}
+h4.header-link:hover img {
+  filter: brightness(0) saturate(100%) invert(49%) sepia(68%) saturate(5274%) hue-rotate(189deg) brightness(100%) contrast(109%);
+}
+h4.header-link img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
 /*# sourceMappingURL=index.css.map */

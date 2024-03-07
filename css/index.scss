@@ -135,3 +135,30 @@ html {
 #skills {
     margin-bottom: 6rem;
 }
+
+h4.header-link {
+    transition: 70ms linear all;
+    border-bottom: 4px solid #313131;
+    margin-bottom: .25rem;
+
+    &:hover {
+        color: #008cff;
+        border-color: #008cff;
+    }
+
+    &:hover img {
+        filter: brightness(0) saturate(100%) invert(49%) sepia(68%) saturate(5274%) hue-rotate(189deg) brightness(100%) contrast(109%);
+    }
+
+    img {
+        vertical-align: middle;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: inherit;
+    }
+}
